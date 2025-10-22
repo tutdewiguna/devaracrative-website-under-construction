@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Under Construction</title>
+    
+    <link rel="icon" type="image/png" href="logo.png"> 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            font-family: 'Poppins', sans-serif;
+            color: #FFFFFF;
+            overflow: hidden;
+        }
+
+        .hero-section {
+            height: 100vh;
+            width: 100%;
+            background-image: 
+                linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), 
+                url('homepage-cover.webp'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content-container {
+            max-width: 600px;
+            width: 90%;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 100px;
+            height: auto;
+            margin-bottom: 30px;
+        }
+        
+        .main-heading {
+            font-size: 3em;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+        }
+
+        .single-line-text {
+            font-size: 1.1em;
+            font-weight: 300;
+            opacity: 0.9;
+            line-height: 1.5;
+            margin-top: 15px;
+        }
+        
+        .instagram-link {
+            color: #FFFFFF;
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 1px solid white;
+            padding-bottom: 1px;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .instagram-link:hover {
+            color: #d62976;
+            border-bottom: 1px solid #d62976;
+        }
+        
+        @media (max-width: 768px) {
+            .logo {
+                width: 80px;
+                margin-bottom: 20px;
+            }
+            
+            .main-heading {
+                font-size: 1.8em;
+                letter-spacing: 0.5px;
+            }
+
+            .single-line-text {
+                font-size: 0.9em;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero-section">
+        <div class="content-container">
+            <img src="logo-white.png" alt="Logo Devara Creative" class="logo">
+            
+            <h1 class="main-heading">
+                Website Under Construction
+            </h1>
+            
+            <p class="single-line-text">
+                We are currently working hard to launch a new look. Follow our progress on Instagram 
+                <a href="https://www.instagram.com/devara.creative" target="_blank" class="instagram-link">@devara.creative</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html> 
